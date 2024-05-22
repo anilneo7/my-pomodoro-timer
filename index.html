@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quotes">"Motivation quotes"</div>
+        <div class="timer">25:00</div>
+        <h1 class="title">Click Start for work timer</h1>
+        <div class="time-settings">
+            <input type="number" id="workTimeInput" placeholder="Work Time (minutes)">
+            <input type="number" id="breakTimeInput" placeholder="Break Time (minutes)">
+            <button id="setTimeBtn">Set Timer</button>
+        </div>
+        <div class="buttons">
+            <button class="startBtn" style="--clr:#75FF33">Start</button>
+            <button class="pauseBtn" style="--clr:#FF3336">Pause</button>
+            <button class="resumeBtn" style="--clr:#5151db">Resume</button>
+            <button class="resetBtn" style="--clr:#FF9333">Reset</button>
+        </div>
+        <div class="belowBtn"><button class="newPomodoroBtn" style="--clr:#2e41a3"> New Pomodoro </button></div>
+        <div class="pomoCountsDisplay">
+            <span class="count">0</span>
+            <p>Pomodoros Completed</p>
+        </div>
+        <div class="instruction"><ul>
+            <li>To start a new pomodoro timer , click on "New Pomodoro" button</li>
+            <li>And then refresh the page.</li>
+            <li>Click on "Start" button to start timer.</li>
+            
+        </ul></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
